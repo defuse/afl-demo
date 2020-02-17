@@ -18,8 +18,8 @@
  *  - 1: 16-bit integer
  */
 
-#define TYPE_STRING 0
-#define TYPE_INT 1
+#define TYPE_STRING 0x41
+#define TYPE_INT 0x01
 
 int printNextRecord(FILE *fptr);
 

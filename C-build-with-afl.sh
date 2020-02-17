@@ -1,2 +1,2 @@
 #!/bin/bash
-CC=./afl-2.52b/afl-gcc make
+AFL_HARDEN=1 CC=./afl-2.52b/afl-gcc make
